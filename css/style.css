@@ -1,0 +1,507 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+body {
+
+	font-family: 'Abril Fatface', cursive;
+
+}
+header {
+	width: 100%;
+	float: left;
+	position: fixed;
+	top: 0;
+	background-color: white;
+}
+
+.logo {
+	width: 20%;
+	float: left;
+	display: inline-flex;
+	align-items: center;
+	padding: 15px 0px;
+}
+.logo img{
+	width: 37px;
+	height: 37px;
+}
+.logo h1{
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.menu {
+	width: 60%;
+	float: left;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	display: inline-block;
+	margin: 24px 46px;
+}
+nav ul li a{
+	text-decoration: none;
+	font-size: 17px;
+	color:black;
+	text-transform: uppercase;
+}
+nav ul li:hover {
+	
+}
+
+
+
+.social-icon {
+	width: 20%;
+	float: left;
+}
+.social-icon ul{
+	list-style: none;
+	padding: 12px;
+}
+.social-icon ul li{
+	display: inline-block;
+	margin: 13px 3px;	
+	transition: 0.6s ease;
+}
+.social-icon ul li:hover {
+	transform: rotate(360deg);
+}
+.social-icon ul li a{
+	
+}
+.fab.fa-facebook-f {
+	background-color:#45629D;
+	color:white;
+	padding: 3px 5px;
+}
+.fab.fa-twitter {
+	background-color:#1DA1F3;
+	color:white;
+	padding: 3px;
+}
+.fab.fa-linkedin-in {
+	background-color:#0271AE;
+	color:white;
+	padding: 3px;
+}
+.fab.fa-google-plus-g {
+	background-color:#CE4331;
+	color:white;
+	padding: 3px;
+}
+.fas.fa-sign-in-alt {
+	
+}
+
+/*background-image start*/
+
+
+
+.background-image {
+	width: 100%;
+	float: left;
+ 	background-image: url(../img/back.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	height: 600px;
+}
+.box {
+	background-color:  #afb1c129;
+	width: 500px;
+	height: 360px;
+	margin: 150px 322px;
+	border-radius: 20px;
+
+}
+.box-content {
+	padding: 36px;
+}
+.box-content h2 {
+    text-transform: uppercase;
+    font-size: 44px;
+    text-align: center;
+    padding: 2px;
+    margin-top: 20px;
+}
+.box-content h5 {
+    margin: 30px 0px 20px;
+    padding: 0px 0px 0px 50px;
+   
+}
+.img-btn {
+    padding: 10px;
+    margin-top: 12px;
+    color: white;
+    background-color: #0c3250;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: 0.4s cubic-bezier(0.67, 0.01, 1, 1);
+    text-transform: uppercase;
+    margin-left: 51px;
+}
+
+.img-btn:hover {
+    background-color: white;
+	color:#68BE25;
+}
+
+/*Information Section start*/
+.info{
+	width: 100%;
+	float: left;
+	margin: 60px auto;
+}
+
+.info-one {
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+.info i {
+	font-size: 70px;
+	margin-bottom: 25px;
+}
+.fas.fa-check {
+	background-color: #647BD1;
+	color: white;
+	border-radius: 60px;
+	padding: 20px;
+}
+.fas.fa-map-marker-alt {
+	background-color: #009786;
+	color: white;
+	border-radius: 60px;
+	padding: 20px;
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	line-height: 76px;
+	vertical-align: middle;
+}
+.fas.fa-money-bill-alt {
+	background-color:#53AC4F;
+	color:white;
+	border-radius: 60px;
+	padding: 20px;
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	line-height: 75px;
+	vertical-align: middle;
+	font-size: 57px;
+}
+.fas.fa-user-plus {
+	background-color:#97E16B;
+	color:white;
+	border-radius: 60px;
+	padding: 20px;
+	height: 70px;
+	width: 70px;
+	font-size: 60px;
+	vertical-align: middle;
+	line-height: 69px;
+}
+.info-two {
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+.info-three {
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+.info-four {
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+.info p{
+	padding: 15px;
+}
+.info a{
+	text-decoration: none;
+	background-color: #3F51B5;
+	padding: 5px;
+	/* border: 2px solid #68BE25; */
+	border-radius: 5px;
+	color:white;
+	transition: 0.4s ease;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.info a:hover {
+	box-shadow: 3px 3px 10px #68BE25;
+	background-color:white;
+	color:#68BE25;
+}
+
+
+
+/*Invest Section start*/
+.part {
+	width: 100%;
+	float: left;
+	margin: 25px auto;
+
+
+}
+.part-one {
+	width: 50%;
+	float: left;
+	background-color: #baced752;
+	height: 250px;
+}
+.part-one h1 {
+	padding: 34px 100px 0px;
+	text-align: left;
+}
+.part-one ul {
+	list-style: none;
+	margin: 10px 0px 20px;
+}
+.part-one ul li {
+	
+}
+.part-one i {
+	margin-left: 100px;
+	padding: 4px;
+}
+
+.far.fa-dot-circle {
+	color:green;
+	display: block ruby;
+}
+.part h5 {
+	color: black;
+}
+.part-two {
+	width: 50%;
+	float: left;
+	background-color: #aab4b942;
+	/* margin-left: 10%; */
+	/* height: 250px; */
+}
+.part-two h1 {
+	padding: 33px 104px 0px;
+	text-align: left;
+}
+.part-two ul {
+	list-style: none;
+	margin: 10px 0px 20px;
+}
+.part-two i {
+	margin-left: 100px;
+	padding: 5px;
+}
+.part-two ul li {
+	
+}
+.part a {
+	text-decoration: none;
+	background-color:#68BE25;
+	padding: 5px;
+	border: none;
+	border-radius: 5px;
+	margin-left: 104px;
+	color:white;
+	transition: 0.4s ease;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.part a:hover {
+	box-shadow: 3px 3px 10px #68BE25;
+	background-color:white;
+	color:#68BE25;
+}
+
+
+/*blog Section start*/
+.blog-title {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.blog {
+	width: 100%;
+	float: left;
+	margin: 25px auto;
+}
+.blog-one {
+	width: 45%;
+	float: left;
+	text-align: left;
+}
+.blog-one h1 {
+	color: #39F;
+}
+.blog-one p{
+	margin: 17px auto;
+}
+.blog-blank {
+	width: 10%;
+	float: left;
+}
+
+.blog-two {
+	width: 45%;
+	float: left;
+	text-align: left;
+	margin-left: 10%;
+}
+.blog-two h1 {
+	color: #39F;
+}
+.blog-two p{
+	margin: 17px auto 44px;
+}
+.blog a {
+	text-decoration: none;
+	background-color: #3F51B5;
+	padding: 7px;
+	border: none;
+	border-radius: 5px;
+	color:white;
+	text-transform: uppercase;
+	transition: 0.4s ease;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.blog a:hover {
+	box-shadow: 3px 3px 10px #68BE25;
+	background-color:white;
+	color:#68BE25;
+}
+
+
+
+/*Lent Section start*/
+.lent {
+	width: 100%;
+	float: left;
+}
+.lent-content {
+	text-align: center;
+	background-color: #607d8bc9;
+	padding: 20px;
+}
+.lent-content h6{
+	padding: 5px 0px;
+}
+.lent-content i{
+	
+}
+
+
+/*Review Section start*/
+.review {
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 25px 0px;
+}
+.star-first {
+	margin: 0 auto;
+	display: inline-flex;
+	padding: 11px;
+	font-weight: bold;
+	font-size: 25px;
+}
+.star-first p {
+	margin-left: 5px;
+}
+.review h6 {
+	margin-top: 5px;
+	font-size: 20px;
+}
+.fas.fa-star {
+	color: #02B975;
+}
+
+.far.fa-star {
+	background-color: #3F51B5;
+	color:white;
+	padding: 2px;
+	font-size: 25px;
+}
+#star-last {
+	background-color:#A29EA2;
+}
+
+
+/*Lendino Section start*/
+.lend {
+	width: 100%;
+	float: left;
+	background-color: #8198a3;
+}
+.lend h4 {
+	text-align: center;
+	color:white;
+	padding: 30px;
+	font-size: 20px;
+}
+.lend-one {
+	width: 20%;
+	float: left;
+}
+.lend h2 {
+	color:white;
+	margin: 0px 0px 21px;
+}
+.lend h5 {
+	margin: 0px 0px 25px;
+}
+.lend-two {
+	width: 20%;
+	float: left;
+}
+.lend-three {
+	width: 20%;
+	float: left;
+}
+.lend-four {
+	width: 20%;
+	float: left;
+}
+.lend-five {
+	width: 20%;
+	float: left;
+}
+
+
+/*footer Section start*/
+footer {
+	width: 100%;
+	float: left;
+	background-color: #482026;
+	color: rgb(249, 249, 249);
+}
+.rights {
+	width: 50%;
+	float: left;
+
+}
+.rights-content {
+	float: right;
+	padding: 20px 0px;
+}
+.address {
+	width: 50%;
+	float: left;
+}
+.address-content {
+	padding: 20px 0px;
+	margin-left: 30px;
+}
